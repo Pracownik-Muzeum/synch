@@ -1,0 +1,196 @@
+/*hex color red #d52122 */
+body, #custom{
+background:none repeat scroll 0 0  #fff;
+}
+#truetop{
+background:#d52122;
+}
+@font-face {
+font-family: 'darkwood';
+src: url('font/darkwood/darkwood.eot?') format('eot'),
+url('font/darkwood/darkwood.woff') format('woff'),
+url('font/darkwood/darkwood.ttf') format('truetype');
+} 
+/*second block */
+#st-descr, .top-descr{
+background: none;
+/*
+background: #e34f4f;
+background: -moz-linear-gradient(top,  #e34f4f 26%, #d52122 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(26%,#e34f4f), color-stop(100%,#d52122));
+background: -webkit-linear-gradient(top,  #e34f4f 26%,#d52122 100%);
+background: -o-linear-gradient(top,  #e34f4f 26%,#d52122 100%);
+background: -ms-linear-gradient(top,  #e34f4f 26%,#d52122 100%);
+background: linear-gradient(top,  #e34f4f 26%,#d52122 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e34f4f', endColorstr='#d52122',GradientType=0 );
+*/
+}
+#media-title,#stage{
+background:none;
+
+}
+#media-title .title{
+text-align:center;
+color:white;
+color:#d52122 \0/;
+font-size:28px;
+text-shadow: 0px 0px 20px #d52122;
+filter: dropshadow(color=#d52122, offx=0, offy=0);
+}
+
+#playlist .playlist ul li {
+	background: #FF00CC;
+	background: -moz-linear-gradient(top,  #FF00CC 1%, #FF00CC 9%, #FF00CC 93%, #FF00CC 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#FF00CC), color-stop(9%,#33CCFF), color-stop(93%,#33CCFF), color-stop(100%,#FF00CC));
+	background: -webkit-linear-gradient(top,  #FF00CC 1%,#33CCFF 9%,#33CCFF 93%,#FF00CC 100%);
+	background: -o-linear-gradient(top,  #FF00CC 1%,#33CCFF 9%,#33CCFF 93%,#FF00CC 100%);
+	background: -ms-linear-gradient(top,  #FF00CC 1%,#33CCFF 9%,#33CCFF 93%,#FF00CC 100%);
+	background: linear-gradient(top,  #FF00CC 1%,#33CCFF 9%,#33CCFF 93%,#FF00CC 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF00CC', endColorstr='#FF00CC',GradientType=0 );
+
+	color:white;
+	border-color:black;
+}
+
+#playlist .playlist ul li a{color:#5c2973;}
+#playlist .playlist ul li:hover,#playlist .playlist .pllist li:hover { background-color:#BBBBBB; color:white;}
+#playlist .playlist .pllist li .duration, #playlist .playlist .plthumb .pl-info .pl-meta .meta,#playlist .playlist #playlist_total{color:#FFF;}
+
+
+#playlist_total{ background: #333;}
+#playlistcontrols{background-color:#444;}
+
+body{
+	background-image:url("images/snowflakesBlue3.jpg");
+}
+#st-vanilla ,#centerstage,#room{
+	background:none;
+}
+#stage-gradient,#st-vanilla .stage-gradient,#st-vanilla .st-vanilla-lower-ct{
+	background:none;
+}
+
+.jspDrag{
+background:#333;
+}
+/* active vid */
+#playlist .playlist ul li.active{
+background-color:#d52122 !important;
+}
+#playlist .playlist ul li.active .duration{
+color:#FFF;
+}
+
+#playlist .playlist ul li.active .pl-info{
+color:#FFF;
+}
+#st-vanilla .st-vanilla-lower-ct .st-vanilla-lower .stagetools{
+background:#d52122;
+
+}
+#st-vanilla .st-vanilla-lower-ct .st-vanilla-lower .stagetools #skip span{
+color:#FFF;
+}
+.descr-stats .descr-stat .descr-stat-value, .descr-stats .descr-stat .descr-icon,.descr-stats .descr-stat .descr-stat-tip,#classic a.active{
+color:#d52122;
+}
+
+
+#media-title .via{
+font-size:16px;
+}
+/*
+#playlistactions .basic-btn{
+background-image:-moz-linear-gradient(#888888, #524a62);
+background-image:-ms-linear-gradient(#888888, #524a62);
+background: -webkit-gradient(linear, 0% 40%, 0% 70%, from(#888888), to(#524a62));
+background-image:-o-linear-gradient(#888888, #524a62);
+}
+*/
+
+.st-room-link-active, .st-room-link a:hover{
+background:#d52122;
+}
+/*users */
+.user_list .m span{
+color:#33CCFF;
+}
+/*
+#chat_users .leader img{
+visibility:hidden;
+}
+
+#chat_users .leader span{
+padding-left:8px;
+}
+*/
+#chat_users .leader div{
+background-size:20px;
+text-shadow: 0px 0px 10px #d52122;
+filter: dropshadow(color=#5c2973, offx=0, offy=0);
+/*
+background-position:center left;
+background-image:url(http://topyxyz.files.wordpress.com/2011/04/kpop-jpg.gif);
+background-repeat:no-repeat;
+*/
+}
+
+#chat_users .leader div span{
+color:#FFF;
+color:#33CCFF \0/;
+}
+
+#custom{
+	background-image:url("http://topyxyz.files.wordpress.com/2011/04/kpop-jpg.gif");
+}
+
+
+p  img{
+padding-top:5px;
+width:400px;
+-webkit-transition:width 0.5s;
+-moz-transition:width 0.5s;
+-ms-transition: width 0.5s;
+
+-webkit-animation-timing-function:ease-in-out;
+-webkit-animation-delay: 0s;
+-webkit-animation-duration: 60s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-name:hovering;
+}
+
+#custom .custom {
+
+}
+
+.cent  img:hover{
+
+width:800px;
+margin-top:-1200px;
+z-index:1000;
+}
+
+#room{
+background-color:none;
+}
+
+#st-vanilla .st-vanilla-lower-ct #classic{
+background:none;
+}
+
+#chat #chat_list{
+background-color:white;
+}
+.top-descr{
+background-repeat:no-repeat;
+background-size:100%;
+padding-bottom:10px;
+
+}
+ #playlist .playlist ul li a{color:white;}
+ 
+ #bottom #footer ul li a{
+ color:#d52122;
+ font-weight:bold;
+ text-shadow:none;
+ }
